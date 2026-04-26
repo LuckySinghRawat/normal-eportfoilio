@@ -729,6 +729,7 @@ a:hover {
 .highlights {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.98), rgba(17, 24, 39, 0.95));
     color: var(--text-primary);
+    padding: 100px 0 !important;
 }
 
 .highlights .container {
@@ -763,10 +764,9 @@ a:hover {
     background: rgba(59, 130, 246, 0.6);
 }
 
-.highlight {
+.pese-week-block {
     padding: 25px 15px;
     border-radius: 12px;
-    /* background: rgba(36, 68, 120, 0.2) !important; */
     border: 2px solid rgba(96, 165, 250, 0.6) !important;
     transition: var(--transition);
     position: relative;
@@ -781,15 +781,15 @@ a:hover {
     text-align: center;
     gap: 10px;
     overflow: visible;
+    background: rgba(59, 130, 246, 0.2) !important;
 }
 
-.highlight:hover {
-    /* background: linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(59, 130, 246, 0.15)); */
+.pese-week-block:hover {
     border-color: var(--accent-color);
     transform: translateY(-4px);
 }
 
-.highlight-number {
+.pese-week-block .week-number {
     font-size: 3.5rem !important;
     font-weight: 900 !important;
     color: #fefefe !important;
@@ -798,7 +798,7 @@ a:hover {
     text-shadow: 0 2px 4px rgba(252, 250, 250, 0.5) !important;
 }
 
-.highlight h3 {
+.pese-week-block h3 {
     font-size: 1.4rem !important;
     margin-bottom: 12px !important;
     color: #FFFFFF !important;
@@ -808,7 +808,7 @@ a:hover {
     line-height: 1.3 !important;
 }
 
-.highlight p {
+.pese-week-block p {
     color: #FFFFFF !important;
     margin-bottom: 0 !important;
     font-size: 1.1rem !important;
